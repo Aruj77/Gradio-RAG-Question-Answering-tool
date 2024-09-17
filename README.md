@@ -13,6 +13,10 @@ You can view and interact with the Colab notebook for this project [here](https:
 
 The live application can be accessed [here](#).
 
+## Documentation 
+
+[Link](https://docs.google.com/document/d/1ab_sihaFiuGXIfl4bz1jq6Hl5l9NYp7j39TW7u5sY6w/edit?usp=sharing)
+
 ## Features
 
 - **Upload PDF Documents**: Users can upload PDF files containing relevant information.
@@ -112,6 +116,5 @@ project-root/
 ## Contributing
 
 If you find issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
->>>>>>> d5a45efc987e4d5caa4c0b10a0d599111ff36cc4
 
 

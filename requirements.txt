@@ -1,7 +1,5 @@
-streamlit
+gradio
+sentence-transformers
 pinecone-client
 cohere
-torch
-transformers
-sentence-transformers
-PyPDF2==3.0.1
+pdfplumber

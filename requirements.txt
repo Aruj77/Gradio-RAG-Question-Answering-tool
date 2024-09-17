@@ -4,3 +4,4 @@ cohere
 sentence-transformers
 pdfplumber
 transformers
+python-dotenv

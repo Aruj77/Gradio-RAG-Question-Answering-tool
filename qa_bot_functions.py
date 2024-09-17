@@ -2,11 +2,13 @@ import cohere
 from sentence_transformers import SentenceTransformer
 import pdfplumber
 import os
+from dotenv import load_dotenv
 
+# Load environment variables from .env file
+load_dotenv()
 # API keys and initialization
-pinecone_api_key = "17fa6302-1d73-4546-945f-8a8900066198"
-cohere_api_key = "Tz1QAyJD5aIwdga6CJAxxjXCkp7cLdY1p9ZN3NC5"
-
+pinecone_api_key = os.getenv("PINECONE_API_KEY")
+cohere_api_key = os.getenv("COHERE_API_KEY")
 # Initialize Cohere
 co = cohere.Client(cohere_api_key)
 

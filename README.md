@@ -20,6 +20,14 @@ To set up the project, follow these steps:
 
 This project implements a Retrieval-Augmented Generation (RAG) model to build a Question Answering (QA) bot. The bot can process uploaded PDF documents, generate embeddings for the content, and answer questions based on the document's content. The application uses Gradio for a user-friendly interface, Pinecone for vector storage and retrieval, and Cohere for generating answers.
 
+## Colab Notebook
+
+You can view and interact with the Colab notebook for this project [here](https://colab.research.google.com/drive/17QEoovx4ssZ3bFT3cXlG0eBs_h8HUifv?usp=sharing).
+
+## Live Application
+
+The live application can be accessed [here](#).
+
 ## Features
 
 - **Upload PDF Documents**: Users can upload PDF files containing relevant information.
@@ -53,7 +61,7 @@ project-root/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Aruj77/Gradio-RAG-Question-Answering-tool
    cd your-repo
    ```
 
@@ -120,3 +128,5 @@ project-root/
 
 If you find issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 >>>>>>> d5a45efc987e4d5caa4c0b10a0d599111ff36cc4
+
+

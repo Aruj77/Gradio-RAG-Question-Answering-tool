@@ -1,5 +1,6 @@
 gradio
-sentence-transformers
 pinecone-client
 cohere
+sentence-transformers
 pdfplumber
+transformers

@@ -15,7 +15,7 @@ def gradio_interface(pdf_file, question):
 iface = gr.Interface(
     fn=gradio_interface,
     inputs=[
-        gr.File(label="Upload PDF"),  # Updated way to handle file inputs
+        gr.File(label="Upload PDF"),  # Handle file inputs
         gr.Textbox(label="Ask a Question"),  # Input for questions
     ],
     outputs=gr.Textbox(label="Answer"),  # Output for the answer
@@ -23,4 +23,8 @@ iface = gr.Interface(
 
 # Launch Gradio interface
 if __name__ == "__main__":
-    iface.launch()
+    iface.launch(
+        share=True,
+        server_port=10000,  # Ensure this matches the expected port on Render.com
+        server_name="0.0.0.0",  # Bind to all IP addresses
+    )
